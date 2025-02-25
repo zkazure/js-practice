@@ -13,3 +13,7 @@ function countBodyChildren() {
     var body_element = document.getElementsByTagName("body")[0];
     alert(body_element.childNodes.length);
 }
+
+function popUp(winURL) {
+    window.open(winURL, "popup", "width=480, height=320");
+}

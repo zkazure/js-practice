@@ -9,7 +9,10 @@
         <h1>Snapshots</h1>
         <p id="description">Choose an image. </p>
         <ul>
-            <a href="https://www.example.com" onclick="return false;" > click me </a>
+            <!-- <a href="https://www.example.com" onclick="return false;" > click me </a> -->
+             <a href="javascript:popUp('https://www.github.com')">Github</a>
+             <a href="javascript:popUp('https://www.google.com')">google</a>
+
             <li>
                 <a href="images/IMG20250128032749.jpg" onclick="showPic(this); return false;" title="image1">Image 1</a>
             </li>
@@ -23,13 +26,13 @@
         </ul>
         <script src="script/showPic.js"></script>
         <!-- <script>window.onload = countBodyChildren; </script> -->
-         <script>
-            // alert(description.nodeValue);
-            // alert(description.childNodes[0].nodeValue);
+         <!-- <script>
+            alert(description.nodeValue);
+            alert(description.childNodes[0].nodeValue);
             
-            // alert(description.firstChild.nodeValue);
-            // alert(description.lastChild.nodeValue);
-            // alert(description.childNodes[node.childNodes.length-1].nodeValue);
-         </script>
+            alert(description.firstChild.nodeValue);
+            alert(description.lastChild.nodeValue);
+            alert(description.childNodes[node.childNodes.length-1].nodeValue);
+         </script> -->
     </body>
 </html>
